@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-20 lg:py-28;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-brand-green/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-forest;
+  }
+  .h2 {
+    @apply mt-4 text-3xl font-extrabold tracking-tight text-ink sm:text-4xl;
+  }
+  .lead {
+    @apply mt-4 text-base leading-relaxed text-muted sm:text-lg;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-green px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-forest focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-green/30;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-line bg-white px-6 py-3 text-sm font-semibold text-ink transition hover:border-brand-green hover:text-brand-forest;
+  }
+  /* --- dashboard --- */
+  .dash-card {
+    @apply rounded-2xl border border-white/[.07] bg-[#101b16];
+  }
+  .dash-btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl border border-white/15 px-4 py-2.5 text-sm font-semibold text-white/85 transition hover:border-white/40 hover:text-white disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .dash-btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl bg-brand-lime px-4 py-2.5 text-sm font-bold text-ink transition hover:bg-[#a3e35a] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .dash-input {
+    @apply rounded-xl border border-white/15 bg-white/5 px-3 py-2.5 text-sm font-normal text-white outline-none focus:border-brand-lime focus:ring-2 focus:ring-brand-lime/20;
+  }
+  .dash-input option {
+    @apply bg-[#0f1c17];
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-white p-6;
+  }
+  /* Kartu yang bisa diklik: membuka detail */
+  .card-link {
+    @apply block w-full cursor-pointer rounded-2xl border border-line bg-white p-6 text-left transition hover:-translate-y-1 hover:border-brand-green/40 hover:shadow-xl hover:shadow-brand-forest/5 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-green/30;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}

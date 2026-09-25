@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-25T14:05:03.017Z",
+  "settings": {
+    "scenario": "normal",
+    "thresholds": {
+      "humMax": 70,
+      "tempMax": 30,
+      "levelMax": 90,
+      "batteryMin": 25
+    },
+    "fan": {
+      "mode": "manual",
+      "on": false
+    },
+    "vent": {
+      "mode": "manual",
+      "open": false
+    },
+    "power": {
+      "autoFailover": true,
+      "plnOnline": true
+    },
+    "soc": 82
+  },
+  "batches": [
+    {
+      "id": "B-012",
+      "commodity": "Jagung pipilan kering",
+      "ton": 8.5,
+      "source": "Kelompok Tani Sumber Rejeki",
+      "inAt": "2026-09-13T13:48:32.811Z"
+    },
+    {
+      "id": "B-013",
+      "commodity": "Jagung pipilan kering",
+      "ton": 9,
+      "source": "Kelompok Tani Tani Makmur",
+      "inAt": "2026-09-19T13:48:32.811Z"
+    },
+    {
+      "id": "B-014",
+      "commodity": "Jagung pipilan kering",
+      "ton": 6.5,
+      "source": "Kelompok Tani Sumber Rejeki",
+      "inAt": "2026-09-23T13:48:32.811Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 21,
+      "time": "2026-09-25T14:05:03.006Z",
+      "severity": "info",
+      "text": "Capacity Warning: Silo terisi 96% dari kapasitas"
+    },
+    {
+      "id": 19,
+      "time": "2026-09-25T14:05:03.005Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    },
+    {
+      "id": 18,
+      "time": "2026-09-25T14:04:52.123Z",
+      "severity": "info",
+      "text": "Alarm Capacity Warning di-acknowledge operator"
+    },
+    {
+      "id": 17,
+      "time": "2026-09-25T14:03:22.429Z",
+      "severity": "info",
+      "text": "Vent atap ditutup — kontrol manual operator"
+    },
+    {
+      "id": 16,
+      "time": "2026-09-25T14:03:11.798Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dimatikan — kontrol manual operator"
+    },
+    {
+      "id": 15,
+      "time": "2026-09-25T14:02:50.835Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dinyalakan — kontrol manual operator"
+    },
+    {
+      "id": 14,
+      "time": "2026-09-25T14:02:07.232Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dimatikan — kontrol manual operator"
+    },
+    {
+      "id": 13,
+      "time": "2026-09-25T14:02:06.498Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dinyalakan — kontrol manual operator"
+    },
+    {
+      "id": 12,
+      "time": "2026-09-25T13:58:50.416Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dimatikan — kontrol manual operator"
+    },
+    {
+      "id": 11,
+      "time": "2026-09-25T13:58:47.863Z",
+      "severity": "info",
+      "text": "Kipas ventilasi dinyalakan — kontrol manual operator"
+    },
+    {
+      "id": 10,
+      "time": "2026-09-25T13:53:22.500Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    },
+    {
+      "id": 9,
+      "time": "2026-09-25T13:53:22.334Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    },
+    {
+      "id": 8,
+      "time": "2026-09-25T13:53:21.971Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    },
+    {
+      "id": 7,
+      "time": "2026-09-25T13:51:13.928Z",
+      "severity": "info",
+      "text": "Vent atap dibuka — kontrol manual operator"
+    },
+    {
+      "id": 6,
+      "time": "2026-09-25T13:48:36.948Z",
+      "severity": "info",
+      "text": "Capacity Warning: Silo terisi 96% dari kapasitas"
+    },
+    {
+      "id": 4,
+      "time": "2026-09-25T13:48:36.947Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    },
+    {
+      "id": 3,
+      "time": "2026-09-25T13:48:33.059Z",
+      "severity": "info",
+      "text": "Capacity Warning: Silo terisi 96% dari kapasitas"
+    },
+    {
+      "id": 1,
+      "time": "2026-09-25T13:48:33.058Z",
+      "severity": "info",
+      "text": "Dashboard terhubung — sistem edge online"
+    }
+  ],
+  "audit": [
+    {
+      "time": "2026-09-25T14:04:52.122Z",
+      "who": "Operator (demo)",
+      "text": "Acknowledge alarm \"Capacity Warning\""
+    },
+    {
+      "time": "2026-09-25T14:03:22.429Z",
+      "who": "Operator (demo)",
+      "text": "Vent atap ditutup secara manual"
+    },
+    {
+      "time": "2026-09-25T14:03:11.799Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dimatikan secara manual"
+    },
+    {
+      "time": "2026-09-25T14:02:50.835Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dinyalakan secara manual"
+    },
+    {
+      "time": "2026-09-25T14:02:06.499Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dinyalakan secara manual"
+    },
+    {
+      "time": "2026-09-25T14:02:07.233Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dimatikan secara manual"
+    },
+    {
+      "time": "2026-09-25T13:58:50.416Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dimatikan secara manual"
+    },
+    {
+      "time": "2026-09-25T13:58:47.863Z",
+      "who": "Operator (demo)",
+      "text": "Kipas dinyalakan secara manual"
+    },
+    {
+      "time": "2026-09-25T13:58:47.862Z",
+      "who": "Operator (demo)",
+      "text": "Mode kipas diubah ke Manual"
+    },
+    {
+      "time": "2026-09-25T13:51:13.928Z",
+      "who": "Operator (demo)",
+      "text": "Vent atap dibuka secara manual"
+    },
+    {
+      "time": "2026-09-25T13:51:13.927Z",
+      "who": "Operator (demo)",
+      "text": "Mode vent diubah ke Manual"
+    }
+  ],
+  "actuatorLog": [
+    {
+      "time": "2026-09-25T14:03:22.429Z",
+      "actuator": "vent",
+      "action": "close",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T14:03:11.797Z",
+      "actuator": "fan",
+      "action": "off",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T14:02:50.834Z",
+      "actuator": "fan",
+      "action": "on",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T14:02:07.232Z",
+      "actuator": "fan",
+      "action": "off",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T14:02:06.498Z",
+      "actuator": "fan",
+      "action": "on",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T13:58:50.416Z",
+      "actuator": "fan",
+      "action": "off",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T13:58:47.862Z",
+      "actuator": "fan",
+      "action": "on",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    },
+    {
+      "time": "2026-09-25T13:51:13.928Z",
+      "actuator": "vent",
+      "action": "open",
+      "source": "manual",
+      "reason": "kontrol manual operator"
+    }
+  ],
+  "powerLog": []
+}
